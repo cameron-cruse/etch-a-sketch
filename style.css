@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px; 
+    height: 800px; 
+}
+
+.container div {
+    width: 6.25%; /* Set the width of each div to be 1/16th of the container */
+    height: 6.25%; /* Set the height of each div to be 1/16th of the container */
+}
+
+.hovered {
+    background-color: #000; 
+  }
